@@ -1,0 +1,9 @@
+#one{
+    text-align:center;
+    text-decoration:red dotted underline;
+    font-weight:lighter;
+    font-size:50px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform:capitalize;
+    line-height:normal;
+}

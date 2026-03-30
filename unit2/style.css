@@ -1,0 +1,41 @@
+p{
+    text-align: center;
+}
+#zero{
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height:normal;
+    text-transform: uppercase;
+}
+#one{
+    font-size: 14px;
+    line-height:normal;
+    text-transform:none;
+}
+
+#h1{
+    text-align:center;
+    text-decoration: inherit;
+    
+    text-decoration: revert;
+    font-weight:lighter;
+}
+#h2{
+    text-align:center;
+    text-decoration:revert;
+    font-weight:bolder;
+}
+#h3{
+    text-align:center;
+    text-decoration:underline;
+    font-weight:100;
+}
+#h4{
+    text-align: center;
+    text-decoration: overline;
+    font-weight:300;
+}
+
+a{
+    text-decoration:none;
+}
