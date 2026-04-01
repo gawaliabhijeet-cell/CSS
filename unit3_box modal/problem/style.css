@@ -1,0 +1,35 @@
+div{
+    height: 100px;
+    background-color: brown;
+    width: 100px;
+    border-width: 2px;
+    border-style:solid;
+    border-color: chocolate;
+    text-align: end;
+    border-radius:  50%;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+p{
+    height: 100px;
+    background-color:aqua;
+    border:2px solid blueviolet;
+    border-radius: 10px;
+    padding: 50px;
+    margin: 25px;
+}
+
+h1{
+    height: 100px;
+    width: 1000px;
+    background-color: aliceblue;
+    border-width: 3px;
+    border-style:dotted;
+    border-color:cyan;
+    text-align:center;
+    border-radius:100%;
+}
