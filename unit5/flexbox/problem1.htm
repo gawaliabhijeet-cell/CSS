@@ -1,0 +1,51 @@
+<!-- create a navbar with 4 options in the form of anchor tags inside list items now use flexbox to place them all spaced equally in a single line. -->
+ <!DOCTYPE html>
+<html>
+<head>
+    <title>Flexbox Navbar</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        nav {
+            background-color: #333;
+        }
+
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;                /* Enable Flexbox */
+            justify-content: space-evenly; /* Equal spacing */
+            align-items: center;
+            height: 60px;
+        }
+
+        li a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            padding: 8px 15px;
+        }
+
+        li a:hover {
+            background-color: #555;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<nav>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+</nav>
+
+</body>
+</html>

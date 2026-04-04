@@ -1,0 +1,36 @@
+use flexbox to center one div inside another div.
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Center Div using Flexbox</title>
+    <style>
+        .parent {
+            height: 300px;
+            background-color: rgb(135, 226, 16);
+
+            display: flex;              /* Enable flexbox */
+            justify-content: center;    /* Center horizontally */
+            align-items: center;        /* Center vertically */
+        }
+
+        .child {
+            width: 150px;
+            height: 100px;
+            background-color: steelblue;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+
+<div class="parent">
+    <div class="child">
+        Centered Div
+    </div>
+</div>
+
+</body>
+</html>

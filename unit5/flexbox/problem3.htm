@@ -1,0 +1,24 @@
+<!-- which has higher priority-align-items or align-self? -->
+ <style>
+.parent {
+    display: flex;
+    height: 200px;
+    background: lightgray;
+    align-items: center;   /* Applies to all children */
+}
+
+.child {
+    background: steelblue;
+    color: white;
+    padding: 20px;
+}
+
+.special {
+    align-self: flex-end;  /* Overrides align-items */
+}
+</style>
+
+<div class="parent">
+    <div class="child">Item 1</div>
+    <div class="child special">Item 2</div>
+</div>
