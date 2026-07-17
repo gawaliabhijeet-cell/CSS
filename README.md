@@ -5,7 +5,6 @@ Welcome to my **CSS Learning Repository**! 🚀
 This repository contains all the practice programs, exercises, and mini projects I completed while learning **CSS** from basic concepts to responsive web design.
 
 The repository is organized unit-wise, making it easy to understand each concept step by step.
-
 ---
 
 # 📚 Course Contents
